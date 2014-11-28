@@ -1,72 +1,54 @@
 <!DOCTYPE html>
-
-  <html>
+<html lang"en">
   
-      <head>
+      <Head>
       <link href="stylesheet.css" rel="stylesheet">
       <title> Company Name </Title>
-      </head>
+      </Head>
       
-	  <nav>
+    <nav>
             <ul id="navmenu">
-            <li><a class="homeButton">
-              <div id ="ex1">
-                <canvas width="30" height="30">
-              </div>
-              <script>
-                        var canv = document.createElement("canvas");
-                        document.getElementById("ex1").appendChild(canv);
-                        canv.width = 30;
-                        canv.height = 30;
-                        var ctx = canv.getContext("2d");
-                        ctx.fillStyle = "#ffffff";
-                        ctx.beginPath();
-                        ctx.moveTo(4,4);
-                        ctx.moveTo(4,20);
-                        ctx.moveTo(15,28);
-                        ctx.moveTo(26,20);
-                        ctx.moveTo(26,4);
-                        ctx.fill();
-                        ctx.stroke();
-
-              </script>  
-            </a></li>
+            <li><a>Home</a></li>    
             <li><a>Option 1</a>
-					       <ul class="sub1">
-					       <li>option 1 scroll link 1</li>
-					       <li>option 1 scroll link 2</li>
-					       <li>option 1 scroll link 3</li>
-					       <li>option 1 scroll link 4</li>
-					       <li>option 1 scroll link 5</li>
-					       <li>option 1 scroll link 6</li>
-					       </ul>
-				    </li>
+                 <ul class="sub1">
+                 <li>option 1 scroll link 1</li>
+                 <li>option 1 scroll link 2</li>
+                 <li>option 1 scroll link 3</li>
+                 <li>option 1 scroll link 4</li>
+                 <li>option 1 scroll link 5</li>
+                 <li>option 1 scroll link 6</li>
+                 </ul>
+            </li>
             <li><a>Option 2</a></li>
             <li><a>Option 3</a></li>
             </ul>
-         </nav>
-	  
+     </nav>
+    
       <header class="header">
-       <h1>MY CMS</h1> 
-	      
+       <h1>Company Name</h1> 
+        
        <div id="searchHeader">
             <form id="newSearch" method="post" action= "search.php" id="searchform">
                     <input type="text" class="newTextInput" name="s" size="21" maxLength="120">
                     <input type="submit" value="search" class="newButton">
             </form> 
-		<div id="helpButton">
-	    <p><u>help</u></p>
-	    </div>	
-			
+    <div id="helpButton">
+      <p><u>help</u></p>
+      </div>  
+      
       <div class="searchClear"></div>
       </div>
 
       </header>
         
-      
-      
-      <body>
-      </body>
-      
-  </html>
+<body>
+<article clas ="leftSide">
+<div>
+ <p> hello this is some text i was just gonna see   how wide this goes and this has allowed to     show me. In here a picture will be used as a link to advertise a current product that is on offer on the website. Underneath this will bea button also allowing the customers to go to that page. </P>
+</div>
+</article>
+</body>
+
+
+</html>
   
