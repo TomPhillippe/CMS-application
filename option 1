@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang"en">
+
+
+<Head>
+  <link href="stylesheet.css" rel="stylesheet">
+  <title> Company Name </Title>
+  </Head>
+
+  <nav>
+    <ul id="navmenu">
+      <li><a href="index.html" >Home</a></li>
+      <li><a href="option1.html">Option 1</a>
+        <ul class="sub1">
+          <li>option 1 scroll link 1</li>
+          <li>option 1 scroll link 2</li>
+          <li>option 1 scroll link 3</li>
+          <li>option 1 scroll link 4</li>
+          <li>option 1 scroll link 5</li>
+          <li>option 1 scroll link 6</li>
+        </ul>
+      </li>
+      <li><a href="option2.html">Option 2</a></li>
+      <li><a href="option3.html">Option 3</a></li>
+    </ul>
+  </nav>
+
+  <header class="header">
+    <h1>Company Name</h1>
+
+    <div id="searchHeader">
+      <form id="newSearch" method="post" action= "search.php" id="searchform">
+        <input type="text" class="newTextInput" name="s" size="21" maxLength="120">
+        <input type="submit" value="search" class="newButton">
+      </form>
+      <div id="helpButton">
+        <p><u><a href="help.html">help</a></u></p>
+      </div>
+
+      <div class="searchClear"></div>
+    </div>
+
+  </header>
+
+
+</html>
